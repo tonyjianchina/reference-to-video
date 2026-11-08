@@ -1,0 +1,8 @@
+{
+  "name": "reference-to-video-project",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=20.11"},
+  "scripts": {"frame": "node scripts/render.mjs frame", "render": "node scripts/render.mjs video", "preview": "node scripts/serve.mjs"},
+  "dependencies": {"@napi-rs/canvas": "1.1.0"}
+}

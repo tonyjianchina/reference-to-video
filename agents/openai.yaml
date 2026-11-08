@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考视频到成片"
+  short_description: "从参考拆解到新话题交互HTML与完整视频，包含原创分镜、画面和声音验收"
+  default_prompt: "使用 $reference-to-video，根据我给的参考视频和新话题，产出参考拆解HTML、新话题交互HTML和经过画面与声音验收的完整视频。"
